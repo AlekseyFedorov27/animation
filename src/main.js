@@ -41,7 +41,7 @@ class App {
     // this.material2 = new THREE.MeshBasicMaterial({ map: this.waterTexture, side: THREE.DoubleSide })
 
     
-    const imageTexture = new THREE.TextureLoader().load('/image.png');
+    const imageTexture = new THREE.TextureLoader().load('/animation/image.png');
 
     const material2 = new THREE.MeshBasicMaterial({map: this.text})
 
